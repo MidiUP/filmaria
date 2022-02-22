@@ -1,0 +1,42 @@
+.container .lista-filmes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 15px 0;
+}
+
+
+article strong {
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+article .link{
+    width: 100%;
+    background: brown;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: all ease 0.5s;
+}
+
+.foto-filme{
+    transition: all ease 0.5s;
+
+}
+/* 
+.foto-filme:hover{
+    transform: scale(1.1);
+} */

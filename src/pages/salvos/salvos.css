@@ -1,0 +1,73 @@
+.salvos--content {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.salvos--RowMovie {
+    width: 100%;
+    height: auto;
+    background-color: rgb(248, 242, 242);
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+    padding: 0;
+    
+}
+
+.salvos--div-capa{
+    width: 30%;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+}
+
+.salvos--capa {
+    width: 300px;
+    height: 150px;
+}
+
+.filme--info-filme{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+}
+
+.filme--info-filme h1{
+    margin: 0;
+    padding: 0;
+    font-size: 1.8em;
+}
+
+.filmes--botoes{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filmes--botoes button{
+    width: 30%;
+    background: brown;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    cursor: pointer;
+    transition: ease 0.4s;
+}
+
+.filmes--botoes button:hover{
+    width: 30%;
+    background: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    color: brown;
+    cursor: pointer;
+    
+}
